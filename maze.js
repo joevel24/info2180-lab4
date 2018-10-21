@@ -1,3 +1,7 @@
+function restart() {
+	document.location.href = "";
+}
+
 function changeColor (){
   document.getElementById("boundary1").classList.add("youlose");
 }
