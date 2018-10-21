@@ -30,9 +30,11 @@ changeBoundary();
 
 
 function winAlert() {
-    
-    alert("You win!");
-    
+		alert("You win!");
+}
+
+function youWin(){
+  document.getElementById("status").innerHTML = "You Win!";
 }
 
 /*function startSquare (changeBoundary()) {
