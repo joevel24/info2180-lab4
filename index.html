@@ -10,13 +10,13 @@ You should download this file for your lab, but you should not edit its contents
 		<script src="maze.js" type="text/javascript"></script>
 	</head>
 
-	<body>
+	<body id="cheat" onmouseover="cheat()">
 		<h1>The Amazing Mouse Maze!</h1>
 		<h2 id="status">Move your mouse over the "S" to begin.</h2>
 
 		<!-- This part of the page represents the maze -->
 		<div id="maze">
-			<div type="button" onclick="restart()" value="Restart" title="Click to restart" id="start">S</div>
+			<div value="Restart" title="Click to restart" id="start">S</div>
 			<div class="boundary" id="boundary1" onmouseover="changeColor()"></div>
 			<div class="boundary" onmouseover="changeBoundary()" onclick="startSquare()"></div>
 			<div class="boundary" onmouseover="changeBoundary()"></div>
@@ -36,7 +36,6 @@ You should download this file for your lab, but you should not edit its contents
 		<p>
 			Good luck!
 		</p>
-
 
 	</body>
 </html>
