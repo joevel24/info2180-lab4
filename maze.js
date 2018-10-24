@@ -55,6 +55,7 @@ function restart() {
 	condition = false;
 	testwin = false;
 	boundary = document.querySelectorAll(".boundary");
+	_status.innerHTML = "Move your mouse over the 'S' to begin";
 	for (var i = 0; i < boundary.length - 1; i++) {
 		boundary[i].className = "boundary";
 	}
